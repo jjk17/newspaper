@@ -1,0 +1,22 @@
+body {margin: 0px; border: 0;}
+h3 {font-family: Verdana; font-size: 14px; font-weight: bold; color: MediumAquamarine;}
+.head {display: flex; border-bottom:  thin solid black; align-items: center;
+width: 100%;}
+div.logo {margin: 10px;}
+div.mytimes {margin: 10px;}
+div.navigation {text-align: right; margin-left: 500px;}
+nav li {display: inline-block; font-size: 17px; margin: 5px; font-family:
+  Verdana; font-size: 14px; font-weight: bold; color: black;}
+.main {display: flex; border: thin solid;}
+div.tuna-title {border: thin solid;}
+div.tuna-paragraph {border: thin solid;}
+div.orca {border: thin solid;}
+div.earth {border: thin solid;}
+div.burger {border: thin solid;}
+div.research {border: thin solid;}
+div.fbi {border: thin solid;}
+div.cats, div.brooklyn, div.cookie, div.news {border: thin solid;}
+div.column {display: flex;}
+div.first-column {width: 630px; margin: 10px;}
+div.second-column {width: 300px; margin: 10px;}
+div.third-column {width: 240px; margin: 10px;}
