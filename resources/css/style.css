@@ -1,22 +1,28 @@
 body {margin: 0px; border: 0;}
 h3 {font-family: Verdana; font-size: 14px; font-weight: bold; color: MediumAquamarine;}
-.head {display: flex; border-bottom:  thin solid black; align-items: center;
-width: 100%;}
+.head {display: flex; border-bottom: thin solid black; align-items: center;
+width: 100%; position: fixed; z-index: 5; background-color: white;}
 div.logo {margin: 10px;}
 div.mytimes {margin: 10px;}
 div.navigation {text-align: right; position: absolute; right: 5px;}
 nav li {display: inline-block; font-size: 17px; margin: 5px; font-family:
   Verdana; font-size: 14px; font-weight: bold; color: black;}
-.main {display: flex; border: thin solid;}
-div.tuna-title {border: thin solid; display: flex; background-image: url("./resources/mainstory.png");}
-div.tuna-paragraph {border: thin solid;}
-div.orca {border: thin solid;}
-div.earth {border: thin solid;}
-div.burger {border: thin solid;}
-div.research {border: thin solid;}
-div.fbi {border: thin solid;}
-div.cats, div.brooklyn, div.cookie, div.news, div.firstemptyspace {border: thin solid;}
+div.main {display: flex; border: thin solid; position: relative; top: 100px;}
+div.tuna-title {border: thin solid; display: flex; background-image: url("../mainstory.png");
+font-family: Georgia; font-weight: bold; font-size: 40px; color: white;}
+div.tuna-paragraph {font-family: Georgia; font-size: 17px; color: black;}
+div.earth {border: thin solid; background-image: url("../fallpic.png"); font-family: Georgia;
+font-weight: bold; font-size: 30px; color: white; text-align: center; height: 200px;}
+div.burger {font-family: Georgia; font-size: 17px; color: black;}
+div.research {background-image: url("../cameraman.png"); height: 300px;
+font-family: Georgia: font-weight: bold; font-size: 30px; color: white; text-align: center;}
+div.fbi {font-family: Georgia; font-size: 17px; color: black;}
+div.cats, div.brooklyn, div.cookie, div.news, div.firstemptyspace { }
+div.brooklyn, div.news {font-family: Georgia; font-size: 17px; color: black;}
+div.cats {background-image: url("../cat.png"); height: 300px; font-family: Georgia;
+font-weight: bold; font-size: 30px; color: white; text-align: center;}
 div.column {display: flex;}
 div.first-column {width: 630px; margin: 10px;}
 div.second-column {width: 300px; margin: 10px;}
 div.third-column {width: 240px; margin: 10px;}
+div.container {display: inline-block;}
