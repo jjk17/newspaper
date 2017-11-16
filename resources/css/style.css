@@ -4,25 +4,39 @@ h3 {font-family: Verdana; font-size: 14px; font-weight: bold; color: MediumAquam
 width: 100%; position: fixed; z-index: 5; background-color: white;}
 div.logo {margin: 10px;}
 div.mytimes {margin: 10px;}
-div.navigation {text-align: right; position: absolute; right: 5px;}
+div.navigation {text-align: right; position: absolute; right: 5px; color: black;}
 nav li {display: inline-block; font-size: 17px; margin: 5px; font-family:
   Verdana; font-size: 14px; font-weight: bold; color: black;}
-div.main {display: flex; border: thin solid; position: relative; top: 100px;}
+div.main {display: flex; position: relative; top: 100px; margin-left: 50px;}
 div.tuna-title {border: thin solid; display: flex; background-image: url("../mainstory.png");
-font-family: Georgia; font-weight: bold; font-size: 40px; color: white;}
+font-family: Georgia; font-weight: bold; font-size: 40px; color: white; padding-left: 20px;}
 div.tuna-paragraph {font-family: Georgia; font-size: 17px; color: black;}
-div.earth {border: thin solid; background-image: url("../fallpic.png"); font-family: Georgia;
-font-weight: bold; font-size: 30px; color: white; text-align: center; height: 200px;}
-div.burger {font-family: Georgia; font-size: 17px; color: black;}
+div.earth {background-image: url("../fallpic.png"); font-family: Georgia;
+font-weight: bold; font-size: 30px; color: white; text-align: center; height: 300px;
+display: flex; align-items: center;}
+div.burger {font-family: Georgia; color: black;}
 div.research {background-image: url("../cameraman.png"); height: 300px;
-font-family: Georgia: font-weight: bold; font-size: 30px; color: white; text-align: center;}
+font-family: Georgia; font-weight: bold; font-size: 30px; color: white; text-align: center;
+display: flex; align-items: center;}
 div.fbi {font-family: Georgia; font-size: 17px; color: black;}
-div.cats, div.brooklyn, div.cookie, div.news, div.firstemptyspace { }
 div.brooklyn, div.news {font-family: Georgia; font-size: 17px; color: black;}
 div.cats {background-image: url("../cat.png"); height: 300px; font-family: Georgia;
-font-weight: bold; font-size: 30px; color: white; text-align: center;}
+font-weight: bold; font-size: 30px; color: white; text-align: center; display: flex;
+align-items: center;}
 div.column {display: flex;}
 div.first-column {width: 630px; margin: 10px;}
 div.second-column {width: 300px; margin: 10px;}
 div.third-column {width: 240px; margin: 10px;}
-div.container {display: inline-block;}
+div.container {display: flex; align-items: baseline;}
+div.column1 {margin-right: 10px;}
+div.column2 {margin-left: 10px;}
+div.second-container {display: flex; flex-direction: column;}
+div.box {border-top: 1px solid grey; border-bottom: 1px solid grey; background-color: WhiteSmoke;
+font-family: Verdana; font-size: 12px; color: DimGray;}
+div.footer {display: flex; flex-direction: column; position: relative; top: 200px;
+  background-color: MediumAquamarine; justify-content: center; align-items: center;
+margin: auto; font-family: Verdana; font-size: 12px; height: 350px;}
+div.mytimes2 {font-family: Georgia; font-size: 16px; font-weight: bold; color: white;
+border-right: medium solid; padding-right: 30px; padding-top: 0px; padding-bottom: 0px;}
+div.part1 {display: inline-flex;}
+.bottom nav li {color: black; margin: 2px;}
