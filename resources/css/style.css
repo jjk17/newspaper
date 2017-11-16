@@ -5,6 +5,7 @@ width: 100%; position: fixed; z-index: 5; background-color: white;}
 div.logo {margin: 10px;}
 div.mytimes {margin: 10px;}
 div.navigation {text-align: right; position: absolute; right: 5px; color: black;}
+nav a {color: black;}
 nav li {display: inline-block; font-size: 17px; margin: 5px; font-family:
   Verdana; font-size: 14px; font-weight: bold; color: black;}
 div.main {display: flex; position: relative; top: 100px; margin-left: 50px;}
@@ -37,6 +38,8 @@ div.footer {display: flex; flex-direction: column; position: relative; top: 200p
   background-color: MediumAquamarine; justify-content: center; align-items: center;
 margin: auto; font-family: Verdana; font-size: 12px; height: 350px;}
 div.mytimes2 {font-family: Georgia; font-size: 16px; font-weight: bold; color: white;
-border-right: medium solid; padding-right: 30px; padding-top: 0px; padding-bottom: 0px;}
+   padding-right: 30px; padding-top: 0px; padding-bottom: 0px;
+height: 30px;}
 div.part1 {display: inline-flex;}
-.bottom nav li {color: black; margin: 2px;}
+nav.bottom a {color: blue;}
+div.bar {display: flex; align-self: center; height: 30px; width: 2px; background-color: white;}
